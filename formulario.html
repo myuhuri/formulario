@@ -1,0 +1,81 @@
+
+Conversa aberta. Uma mensagem lida.
+
+Pular para o conteúdo
+Como usar o E-mail de Instituto Federal de Educação, Ciência e Tecnologia do Maranhão - IFMA com leitores de tela
+in:sent 
+
+2 de 48
+(sem assunto)
+
+Thaemilly Sousa Oliveira <thaemillyoliveira@acad.ifma.edu.br>
+10:58 (há 0 minuto)
+para thaemillytata73365
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            background-color: rgb(128, 128, 128);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>formulario de Cadastro</h1>
+    <hr>
+    <a href="index.html">HOME</a>
+    <hr>
+    <form action="">
+        <label for="name"><b>digite seu nome:</b></label>
+        <input type="text" name="name" id="name"
+        placeholder="digite seu nome aqui!" required>
+        <br><br>
+        <label for="email"><b>digite seu email:</b></label>  
+        <input type="email" name="email" id="email"
+        placeholder="digite seu nome aqui!"required>
+        <br><br>
+        <label for="password"><b>digite sua senha:</b></label>  
+        <input type="password" name="password" id="password"
+        placeholder="digite sua senha aqui!"required>
+        <br><br>
+        <h4>Marque sua profissao</h4>
+        <input type="radio"id="profissao" name="profissao">
+        <label for="profissao">professor</label>
+        <br>
+        <input type="radio" id="aluno" name="profissao">
+        <label for="aluno">aluno</label>
+        <br>
+        <input type="radio" id="outros" name="profissao">
+        <label for="outros">outros</label>
+        <br><br>
+        <h4>acesso a internet</h4>
+        <input type="checkbox" id="celular" name="internet"
+        value="celular">
+        <label for="internet">celular</label>
+        <input type="checkbox" id="banda larga" name="internet"
+        value="banda larga">
+        <label for="internet">banda larga</label>
+        <input type="checkbox" id="celular" name="internet"
+        value="Outros">
+        <label for="internet">outros</label>
+        <br><br>
+        <h4>estado onde voce mora:</h4>
+        <select name="localidade" id="local">
+            <option value="maranhao">maranhao</option>
+            <option value="pará">pará</option>
+            <option value="piaui">piaui</option>
+            <option value="tocantins">tocantins</option>
+        </select>
+        <br><br>
+        <textarea name="coment" id="coment" cols="30" rows="10"
+            placeholder="digite aqui seu texto"></textarea>
+        <input type="submit" name="enviar" id=submit>
+    </form>
+
+</body>
+</html>
